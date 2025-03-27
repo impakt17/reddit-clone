@@ -1,4 +1,4 @@
-/* Dark mode & begränsad bredd */
+/* lagt till Dark mode istället vit bakgrund & med begränsad bredd */
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -7,24 +7,24 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrera allt horisontellt */
+    align-items: center; /* Centrera allt */
 }
 
-/* Container för innehåll (60% bredd) */
+
 main {
     width: 60%;
-    max-width: 800px; /* Sätt maxbredd för stora skärmar */
+    max-width: 800px; 
 }
 
 header {
     text-align: center;
     margin-bottom: 20px;
-    width: 60%; /* Samma bredd som main */
+    width: 60%; /* likadan bredd som main */
 }
 
 h1 {
     color: #ffffff;
-    font-size: 2rem; /* Mindre titel */
+    font-size: 2rem;
 }
 
 form {
@@ -32,7 +32,7 @@ form {
     background-color: #1e1e1e;
     padding: 15px;
     border-radius: 8px;
-    width: 100%; /* Anpassa till förälderns bredd */
+    width: 100%; 
 }
 
 input, textarea, button {
@@ -61,7 +61,7 @@ button:hover {
     margin-bottom: 20px;
     border-radius: 8px;
     border-left: 4px solid #444;
-    width: 100%; /* Anpassa till förälderns bredd */
+    width: 100%; 
 }
 
 .commentForm {
@@ -81,38 +81,3 @@ li {
     border-left: 3px solid #666;
 }
 
-
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-
-form {
-    margin-bottom: 20px;
-}
-
-input, textarea, button {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.post {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-.commentForm {
-    margin-top: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    background-color: #f9f9f9;
-    padding: 5px;
-    margin-bottom: 5px;
-} */
